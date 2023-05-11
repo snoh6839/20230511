@@ -4,4 +4,5 @@ setcookie("age", "26", time() + 300);
 
 var_dump($_COOKIE);
 
+setcookie("age", "", 0);
 ?>
